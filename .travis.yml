@@ -1,0 +1,22 @@
+
+language: cpp
+sudo: required
+dist: trusty
+
+before_install:
+- sudo apt-get install scons lcov
+
+compiler:
+- gcc
+
+os:
+- linux
+
+script: ./run_tests.sh 
+
+notifications:
+  email: false
+
+env:
+  - LANG="en_US.UTF-8"
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_structures_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\fakes\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/libArduino.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/../tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/avr"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/util"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 Arduino"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/libArduino.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/../tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/avr"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/util"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 Arduino/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures_tests">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/data_structures_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 data_structures_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures_tests/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/data_structures_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 data_structures_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/libdata_structures.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 data_structures"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structures/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/libdata_structures.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 data_structures/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/robot1/DataStructures/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/DataStructures.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/decode_results.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/decode_results.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/Arduino.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/Arduino.h">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/Serial.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/Servo.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/Servo.h">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/crc16.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/eeprom.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/tests_decode_results.cpp">
+			<Option target="data_structures_tests"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/tmain.cpp">
+			<Option target="data_structures_tests"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/tests/fakes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\fakes\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/robot1/DataStructures/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

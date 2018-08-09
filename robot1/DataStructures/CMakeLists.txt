@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(data_structures_lib)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_subdirectory(tests/fakes)
+add_subdirectory(tests)
+add_subdirectory(src)
