@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.5)
 include_directories(./tools)
 
 add_executable(data_structures_tests tmain.cpp tests_decode_results.cpp)

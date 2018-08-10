@@ -24,62 +24,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="decode_results.cpp" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="170">
+                    <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fff.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tools/fff.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-              <folding>
-                <element signature="e#1141#1160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tests_decode_results.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arduino.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/fakes/Arduino.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="314">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#38#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,14 +80,14 @@
         <option value="$PROJECT_DIR$/robot1/run_tests.sh" />
         <option value="$PROJECT_DIR$/robot1/build.sh" />
         <option value="$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.h" />
-        <option value="$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp" />
-        <option value="$PROJECT_DIR$/robot1/DataStructures/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/robot1/DataStructures/tests/fakes/Arduino.h" />
         <option value="$PROJECT_DIR$/robot1/DataStructures/src/decode_results.h" />
-        <option value="$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp" />
         <option value="$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/robot1/DataStructures/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/robot1/DataStructures/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/robot1/DataStructures/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/robot1/DataStructures/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp" />
+        <option value="$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp" />
       </list>
     </option>
   </component>
@@ -127,10 +101,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2228" />
+    <option name="x" value="2098" />
     <option name="y" value="-4" />
-    <option name="width" value="1533" />
-    <option name="height" value="896" />
+    <option name="width" value="1531" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -229,8 +203,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Catch.Can create and retrieve values from decode_results">
+  <component name="RunManager" selected="Catch.Can point 2 pointers to same address">
     <configuration name="Can create and retrieve values from decode_results" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="data_structures_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structures_lib" RUN_TARGET_NAME="data_structures_tests" TEST_CLASS="[decode_results]" TEST_METHOD="Can create and retrieve values from decode_results" TEST_MODE="SUITE_TEST" />
+    <configuration name="Can create obj instance and retrieve values from pointer to obj" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="data_structures_tests" RUN_TARGET_PROJECT_NAME="data_structures_lib" RUN_TARGET_NAME="data_structures_tests" TEST_CLASS="[decode_results]" TEST_METHOD="Can create obj instance and retrieve values from pointer to obj" TEST_MODE="SUITE_TEST" />
+    <configuration name="Can point 2 pointers to same address" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="data_structures_tests" RUN_TARGET_PROJECT_NAME="data_structures_lib" RUN_TARGET_NAME="data_structures_tests" TEST_CLASS="[decode_results]" TEST_METHOD="Can point 2 pointers to same address" TEST_MODE="SUITE_TEST" />
+    <configuration name="Can retrieve values from indirection op on ptr" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="data_structures_tests" RUN_TARGET_PROJECT_NAME="data_structures_lib" RUN_TARGET_NAME="data_structures_tests" TEST_CLASS="[decode_results]" TEST_METHOD="Can retrieve values from indirection op on ptr" TEST_MODE="SUITE_TEST" />
     <configuration name="Arduino" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="Arduino" CONFIG_NAME="Debug" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="data_structures" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structures_lib" TARGET_NAME="data_structures" CONFIG_NAME="Debug" />
@@ -241,10 +218,16 @@
       <item itemvalue="Application.data_structures_tests" />
       <item itemvalue="Application.Arduino" />
       <item itemvalue="Catch.Can create and retrieve values from decode_results" />
+      <item itemvalue="Catch.Can create obj instance and retrieve values from pointer to obj" />
+      <item itemvalue="Catch.Can retrieve values from indirection op on ptr" />
+      <item itemvalue="Catch.Can point 2 pointers to same address" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Catch.Can point 2 pointers to same address" />
+        <item itemvalue="Catch.Can retrieve values from indirection op on ptr" />
         <item itemvalue="Catch.Can create and retrieve values from decode_results" />
+        <item itemvalue="Catch.Can create obj instance and retrieve values from pointer to obj" />
       </list>
     </recent_temporary>
   </component>
@@ -256,29 +239,57 @@
       <option name="presentableId" value="Default" />
       <updated>1533770976911</updated>
       <workItem from="1533770979686" duration="9915000" />
-      <workItem from="1533782162876" duration="7821000" />
+      <workItem from="1533782162876" duration="10595000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.08 at 22h 15m 59s.xml">
+    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.10 at 08h 04m 04s.xml">
       <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.10 at 08h 10m 05s.xml">
+      <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_create_obj_instance_and_retrieve_values_from_pointer_to_obj - 2018.08.10 at 08h 24m 41s.xml">
+      <configuration name="Can create obj instance and retrieve values from pointer to obj" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 32m 06s.xml">
+      <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_create_obj_instance_and_retrieve_values_from_pointer_to_obj - 2018.08.10 at 08h 34m 10s.xml">
+      <configuration name="Can create obj instance and retrieve values from pointer to obj" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 34m 58s.xml">
+      <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.10 at 08h 37m 34s.xml">
+      <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 37m 42s.xml">
+      <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 40m 58s.xml">
+      <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 42m 09s.xml">
+      <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17736000" />
+    <option name="totallyTimeSpent" value="20510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1664" y="-11" width="1617" height="1062" extended-state="6" />
+    <frame x="1665" y="-4" width="1615" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.7317839" weight="0.32972974" />
-      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.4937186" weight="0.38054055" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42839196" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.7242462" visible="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49338624" weight="0.37935483" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27575377" side_tool="true" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57160807" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56532663" weight="0.3189189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7782663" weight="0.2745946" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -298,6 +309,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.h">
@@ -407,27 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -448,24 +447,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/SConscript">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="314">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#38#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

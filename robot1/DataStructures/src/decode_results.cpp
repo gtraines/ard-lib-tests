@@ -3,10 +3,10 @@
 decode_results::~decode_results() = default;
 
 decode_results::decode_results() {
-    decode_type = -1;
+    decode_type = 0;
     value = 0l;
-    bits = -1;
+    bits = 0;
     rawbuf = nullptr;
 
-    rawlen = -1;
+    rawlen = 0;
 }

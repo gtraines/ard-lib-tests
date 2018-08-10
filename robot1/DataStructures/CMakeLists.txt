@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.5)
 project(data_structures_lib)
 
 set(CMAKE_CXX_STANDARD 11)
