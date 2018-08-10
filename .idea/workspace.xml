@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests_decode_results.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests_decode_results.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -153,18 +153,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
               <item name="tests" type="cbb8eebc:String" user="tests" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
-              <item name="tests" type="cbb8eebc:String" user="tests" />
-              <item name="fakes" type="cbb8eebc:String" user="fakes" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
-              <item name="tests" type="cbb8eebc:String" user="tests" />
-              <item name="tools" type="cbb8eebc:String" user="tools" />
             </path>
           </expand>
           <select />
@@ -268,25 +256,29 @@
       <option name="presentableId" value="Default" />
       <updated>1533770976911</updated>
       <workItem from="1533770979686" duration="9915000" />
-      <workItem from="1533782162876" duration="7083000" />
+      <workItem from="1533782162876" duration="7821000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.08 at 22h 15m 59s.xml">
+      <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16998000" />
+    <option name="totallyTimeSpent" value="17736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1664" y="-11" width="1617" height="1062" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.73241204" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="CMake" order="7" sideWeight="0.4937186" visible="true" weight="0.38054055" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50628144" side_tool="true" visible="true" weight="0.38054055" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.7317839" weight="0.32972974" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.4937186" weight="0.38054055" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42839196" side_tool="true" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57160807" visible="true" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7782663" weight="0.2745946" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -432,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -472,8 +457,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
