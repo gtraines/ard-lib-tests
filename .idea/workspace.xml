@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="data_structures_lib" targetName="data_structures_tests" />
       <config projectName="data_structures_lib" targetName="data_structures" />
       <config projectName="data_structures_lib" targetName="Arduino" />
+      <config projectName="data_structures_lib" targetName="data_structures_tests" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,10 +13,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0059b3-812d-4768-836b-3823b122ea3e" name="Default" comment="" />
+    <list default="true" id="0e0059b3-812d-4768-836b-3823b122ea3e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/src/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/robot1/DataStructures/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/robot1/DataStructures/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/robot1/DataStructures/src/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/robot1/DataStructures/tests/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/robot1/DataStructures/tests/fakes/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +34,7 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="decode_results.cpp" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.cpp">
                 <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +55,8 @@
       <file leaf-file-name="tests_decode_results.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="136">
+              <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
               <folding>
                 <element signature="e#38#58#0" expanded="true" />
               </folding>
@@ -66,6 +72,9 @@
         <option value="CMakeLists.txt" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,27 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
-              <item name="tests" type="cbb8eebc:String" user="tests" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +154,72 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataStructures" type="cbb8eebc:String" user="DataStructures" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+              <item name="mocks_man" type="cbb8eebc:String" user="mocks_man" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="home" type="cbb8eebc:String" user="home" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="home" type="cbb8eebc:String" user="home" />
+              <item name="graham" type="cbb8eebc:String" user="graham" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="home" type="cbb8eebc:String" user="home" />
+              <item name="graham" type="cbb8eebc:String" user="graham" />
+              <item name="Source" type="cbb8eebc:String" user="Source" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="home" type="cbb8eebc:String" user="home" />
+              <item name="graham" type="cbb8eebc:String" user="graham" />
+              <item name="Source" type="cbb8eebc:String" user="Source" />
+              <item name="ard-lib-tests" type="cbb8eebc:String" user="ard-lib-tests" />
             </path>
           </expand>
           <select />
@@ -239,14 +293,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533770976911</updated>
       <workItem from="1533770979686" duration="9915000" />
-      <workItem from="1533782162876" duration="10595000" />
+      <workItem from="1533782162876" duration="11299000" />
+      <workItem from="1534120211399" duration="1829000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.10 at 08h 04m 04s.xml">
-      <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="Can_create_and_retrieve_values_from_decode_results - 2018.08.10 at 08h 10m 05s.xml">
       <configuration name="Can create and retrieve values from decode_results" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
@@ -274,26 +326,27 @@
     <history-entry file="Can_retrieve_values_from_indirection_op_on_ptr - 2018.08.10 at 08h 42m 09s.xml">
       <configuration name="Can retrieve values from indirection op on ptr" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="Can_point_2_pointers_to_same_address - 2018.08.10 at 08h 47m 47s.xml">
+      <configuration name="Can point 2 pointers to same address" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20510000" />
+    <option name="totallyTimeSpent" value="23043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1665" y="-4" width="1615" height="1054" extended-state="6" />
-    <editor active="true" />
+    <frame x="1664" y="-11" width="1617" height="1062" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16268845" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.7242462" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49338624" weight="0.37935483" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27575377" side_tool="true" visible="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4353015" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5646985" weight="0.3189189" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56532663" weight="0.3189189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7782663" weight="0.2745946" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.1372973" />
@@ -302,6 +355,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.7242462" weight="0.32864866" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +370,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#38#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/src/decode_results.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -441,9 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#1141#1160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot1/DataStructures/tests/tests_decode_results.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="136">
+          <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
           </folding>

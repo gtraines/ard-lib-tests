@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ir_sensor_cluster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\fakes\;CMake Files\tests\mocks_gen\;CMake Files\tests\mocks_man\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ir_sensor_cluster_tests">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/ir_sensor_cluster_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ir_sensor_cluster_tests/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/ir_sensor_cluster_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/libArduino.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/../tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/avr"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/util"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 Arduino"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/libArduino.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/../tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/avr"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/util"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 Arduino/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/fakes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generated_mocks">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/libgenerated_mocks.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen/.."/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 generated_mocks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generated_mocks/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/libgenerated_mocks.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen/.."/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 generated_mocks/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_gen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="manual_mocks">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/libmanual_mocks.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/.."/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 manual_mocks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="manual_mocks/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/libmanual_mocks.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/./tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/.."/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 manual_mocks/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/tests/mocks_man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ir_sensor_cluster_impl">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/libir_sensor_cluster_impl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_impl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ir_sensor_cluster_impl/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/libir_sensor_cluster_impl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_impl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrClusterStructs.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorCluster.cpp">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorCluster.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/decode_results.cpp">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/decode_results.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Arduino.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Arduino.h">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Serial.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Servo.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Servo.h">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/crc16.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/eeprom.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries/IrReceiver.cpp">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries/IrReceiver.h">
+			<Option target="Arduino"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen/GeneratedMocks.cpp">
+			<Option target="generated_mocks"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen/GeneratedMocks.h">
+			<Option target="generated_mocks"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/ManualMocks.cpp">
+			<Option target="manual_mocks"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/ManualMocks.h">
+			<Option target="manual_mocks"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/tests_decode_results.cpp">
+			<Option target="ir_sensor_cluster_tests"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/tests_ir_sensor_cluster.cpp">
+			<Option target="ir_sensor_cluster_tests"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/tmain.cpp">
+			<Option target="ir_sensor_cluster_tests"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\fakes\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\mocks_gen\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\mocks_man\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
