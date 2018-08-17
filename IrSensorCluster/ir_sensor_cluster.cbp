@@ -270,6 +270,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/CommoController.cpp">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/CommoController.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrClusterStructs.h">
 			<Option target="ir_sensor_cluster_impl"/>
 		</Unit>
@@ -277,6 +283,12 @@
 			<Option target="ir_sensor_cluster_impl"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorCluster.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorController.cpp">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorController.h">
 			<Option target="ir_sensor_cluster_impl"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Arduino.cpp">
@@ -314,6 +326,9 @@
 			<Option target="arduino_libs"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries/IrReceiver.h">
+			<Option target="arduino_libs"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries/StackArray.h">
 			<Option target="arduino_libs"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries/TraverseConfig.h">
