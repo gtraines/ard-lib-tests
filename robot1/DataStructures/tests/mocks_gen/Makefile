@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -E cmake_progress_start /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles /home/robot1/Source/ard-lib-tests/robot1/DataStructures/tests/mocks_gen/CMakeFiles/progress.marks
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 tests/mocks_gen/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 tests/mocks_gen/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,83 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 tests/mocks_gen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 tests/mocks_gen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Arduino
+# Convenience name for target.
+tests/mocks_gen/CMakeFiles/mocks_gen.dir/rule:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 tests/mocks_gen/CMakeFiles/mocks_gen.dir/rule
+.PHONY : tests/mocks_gen/CMakeFiles/mocks_gen.dir/rule
 
-# Build rule for target.
-Arduino: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Arduino
-.PHONY : Arduino
+# Convenience name for target.
+mocks_gen: tests/mocks_gen/CMakeFiles/mocks_gen.dir/rule
 
-# fast build rule for target.
-Arduino/fast:
-	$(MAKE) -f tests/fakes/CMakeFiles/Arduino.dir/build.make tests/fakes/CMakeFiles/Arduino.dir/build
-.PHONY : Arduino/fast
-
-#=============================================================================
-# Target rules for targets named mocks_gen
-
-# Build rule for target.
-mocks_gen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mocks_gen
 .PHONY : mocks_gen
 
 # fast build rule for target.
 mocks_gen/fast:
-	$(MAKE) -f tests/mocks_gen/CMakeFiles/mocks_gen.dir/build.make tests/mocks_gen/CMakeFiles/mocks_gen.dir/build
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f tests/mocks_gen/CMakeFiles/mocks_gen.dir/build.make tests/mocks_gen/CMakeFiles/mocks_gen.dir/build
 .PHONY : mocks_gen/fast
 
-#=============================================================================
-# Target rules for targets named mocks_man
+mocks_generated.o: mocks_generated.cpp.o
 
-# Build rule for target.
-mocks_man: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mocks_man
-.PHONY : mocks_man
+.PHONY : mocks_generated.o
 
-# fast build rule for target.
-mocks_man/fast:
-	$(MAKE) -f tests/mocks_man/CMakeFiles/mocks_man.dir/build.make tests/mocks_man/CMakeFiles/mocks_man.dir/build
-.PHONY : mocks_man/fast
+# target to build an object file
+mocks_generated.cpp.o:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f tests/mocks_gen/CMakeFiles/mocks_gen.dir/build.make tests/mocks_gen/CMakeFiles/mocks_gen.dir/mocks_generated.cpp.o
+.PHONY : mocks_generated.cpp.o
 
-#=============================================================================
-# Target rules for targets named data_structures_tests
+mocks_generated.i: mocks_generated.cpp.i
 
-# Build rule for target.
-data_structures_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 data_structures_tests
-.PHONY : data_structures_tests
+.PHONY : mocks_generated.i
 
-# fast build rule for target.
-data_structures_tests/fast:
-	$(MAKE) -f tests/CMakeFiles/data_structures_tests.dir/build.make tests/CMakeFiles/data_structures_tests.dir/build
-.PHONY : data_structures_tests/fast
+# target to preprocess a source file
+mocks_generated.cpp.i:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f tests/mocks_gen/CMakeFiles/mocks_gen.dir/build.make tests/mocks_gen/CMakeFiles/mocks_gen.dir/mocks_generated.cpp.i
+.PHONY : mocks_generated.cpp.i
 
-#=============================================================================
-# Target rules for targets named data_structures
+mocks_generated.s: mocks_generated.cpp.s
 
-# Build rule for target.
-data_structures: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 data_structures
-.PHONY : data_structures
+.PHONY : mocks_generated.s
 
-# fast build rule for target.
-data_structures/fast:
-	$(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/build
-.PHONY : data_structures/fast
+# target to generate assembly for a file
+mocks_generated.cpp.s:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f tests/mocks_gen/CMakeFiles/mocks_gen.dir/build.make tests/mocks_gen/CMakeFiles/mocks_gen.dir/mocks_generated.cpp.s
+.PHONY : mocks_generated.cpp.s
 
 # Help Target
 help:
@@ -183,11 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Arduino"
 	@echo "... mocks_gen"
-	@echo "... mocks_man"
-	@echo "... data_structures_tests"
-	@echo "... data_structures"
+	@echo "... mocks_generated.o"
+	@echo "... mocks_generated.i"
+	@echo "... mocks_generated.s"
 .PHONY : help
 
 
@@ -199,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

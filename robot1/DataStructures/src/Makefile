@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/graham/Source/ard-lib-tests/robot1/DataStructures
+CMAKE_SOURCE_DIR = /home/robot1/Source/ard-lib-tests/robot1/DataStructures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/graham/Source/ard-lib-tests/robot1/DataStructures
+CMAKE_BINARY_DIR = /home/robot1/Source/ard-lib-tests/robot1/DataStructures
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -E cmake_progress_start /home/graham/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles /home/graham/Source/ard-lib-tests/robot1/DataStructures/src/CMakeFiles/progress.marks
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/graham/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles 0
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -E cmake_progress_start /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles /home/robot1/Source/ard-lib-tests/robot1/DataStructures/src/CMakeFiles/progress.marks
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot1/Source/ard-lib-tests/robot1/DataStructures/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/data_structures.dir/rule:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/data_structures.dir/rule
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/data_structures.dir/rule
 .PHONY : src/CMakeFiles/data_structures.dir/rule
 
 # Convenience name for target.
@@ -122,8 +122,89 @@ data_structures: src/CMakeFiles/data_structures.dir/rule
 
 # fast build rule for target.
 data_structures/fast:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/build
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/build
 .PHONY : data_structures/fast
+
+IRremote.o: IRremote.cpp.o
+
+.PHONY : IRremote.o
+
+# target to build an object file
+IRremote.cpp.o:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IRremote.cpp.o
+.PHONY : IRremote.cpp.o
+
+IRremote.i: IRremote.cpp.i
+
+.PHONY : IRremote.i
+
+# target to preprocess a source file
+IRremote.cpp.i:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IRremote.cpp.i
+.PHONY : IRremote.cpp.i
+
+IRremote.s: IRremote.cpp.s
+
+.PHONY : IRremote.s
+
+# target to generate assembly for a file
+IRremote.cpp.s:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IRremote.cpp.s
+.PHONY : IRremote.cpp.s
+
+IrReceiver.o: IrReceiver.cpp.o
+
+.PHONY : IrReceiver.o
+
+# target to build an object file
+IrReceiver.cpp.o:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrReceiver.cpp.o
+.PHONY : IrReceiver.cpp.o
+
+IrReceiver.i: IrReceiver.cpp.i
+
+.PHONY : IrReceiver.i
+
+# target to preprocess a source file
+IrReceiver.cpp.i:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrReceiver.cpp.i
+.PHONY : IrReceiver.cpp.i
+
+IrReceiver.s: IrReceiver.cpp.s
+
+.PHONY : IrReceiver.s
+
+# target to generate assembly for a file
+IrReceiver.cpp.s:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrReceiver.cpp.s
+.PHONY : IrReceiver.cpp.s
+
+IrSensorCluster.o: IrSensorCluster.cpp.o
+
+.PHONY : IrSensorCluster.o
+
+# target to build an object file
+IrSensorCluster.cpp.o:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrSensorCluster.cpp.o
+.PHONY : IrSensorCluster.cpp.o
+
+IrSensorCluster.i: IrSensorCluster.cpp.i
+
+.PHONY : IrSensorCluster.i
+
+# target to preprocess a source file
+IrSensorCluster.cpp.i:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrSensorCluster.cpp.i
+.PHONY : IrSensorCluster.cpp.i
+
+IrSensorCluster.s: IrSensorCluster.cpp.s
+
+.PHONY : IrSensorCluster.s
+
+# target to generate assembly for a file
+IrSensorCluster.cpp.s:
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/IrSensorCluster.cpp.s
+.PHONY : IrSensorCluster.cpp.s
 
 decode_results.o: decode_results.cpp.o
 
@@ -131,7 +212,7 @@ decode_results.o: decode_results.cpp.o
 
 # target to build an object file
 decode_results.cpp.o:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.o
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.o
 .PHONY : decode_results.cpp.o
 
 decode_results.i: decode_results.cpp.i
@@ -140,7 +221,7 @@ decode_results.i: decode_results.cpp.i
 
 # target to preprocess a source file
 decode_results.cpp.i:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.i
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.i
 .PHONY : decode_results.cpp.i
 
 decode_results.s: decode_results.cpp.s
@@ -149,7 +230,7 @@ decode_results.s: decode_results.cpp.s
 
 # target to generate assembly for a file
 decode_results.cpp.s:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.s
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(MAKE) -f src/CMakeFiles/data_structures.dir/build.make src/CMakeFiles/data_structures.dir/decode_results.cpp.s
 .PHONY : decode_results.cpp.s
 
 # Help Target
@@ -161,6 +242,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... data_structures"
+	@echo "... IRremote.o"
+	@echo "... IRremote.i"
+	@echo "... IRremote.s"
+	@echo "... IrReceiver.o"
+	@echo "... IrReceiver.i"
+	@echo "... IrReceiver.s"
+	@echo "... IrSensorCluster.o"
+	@echo "... IrSensorCluster.i"
+	@echo "... IrSensorCluster.s"
 	@echo "... decode_results.o"
 	@echo "... decode_results.i"
 	@echo "... decode_results.s"
@@ -175,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/graham/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/robot1/Source/ard-lib-tests/robot1/DataStructures && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

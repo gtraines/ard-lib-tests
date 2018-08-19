@@ -1,8 +1,0 @@
-//
-// Created by graham on 8/8/18.
-//
-
-#ifndef ARD_LIB_TESTS_DATASTRUCTURES_H
-#define ARD_LIB_TESTS_DATASTRUCTURES_H
-
-#endif //ARD_LIB_TESTS_DATASTRUCTURES_H
