@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="ardLibTests" Database="">
-  <Project Name="DataStructures" Path="robot1/DataStructures.project" Active="Yes"/>
+<CodeLite_Workspace Name="ir_sensor_cluster" Database="">
+  <Project Name="ir_sensor_project" Path="ir_sensor_project.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="DataStructures" ConfigName="Debug_Linux"/>
+      <Project Name="ir_sensor_project" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="DataStructures" ConfigName="Debug_Linux"/>
+      <Project Name="ir_sensor_project" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

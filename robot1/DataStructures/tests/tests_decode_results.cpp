@@ -68,3 +68,21 @@ TEST_CASE("Can point 2 pointers to same address", "[decode_results]") {
     REQUIRE(resultPtr2->value == 8675);
     REQUIRE(resultPtr1->value == 8675);
 }
+
+
+TEST_CASE("Can create array of pointers", "[decode_results]") {
+    decode_results* comp_res = new decode_results();
+    
+    decode_results* resultArr[5] = { 
+        new decode_results(),
+        new decode_results(),
+        new decode_results(),
+        new decode_results(),
+        new decode_results()
+    };
+    
+    REQUIRE(resultArr[0]->rawbuf == nullptr);
+    REQUIRE(resultArr[1]->value == comp_res->value);
+    REQUIRE(resultArr[2]->decode_type == comp_res->decode_type);
+    
+}
