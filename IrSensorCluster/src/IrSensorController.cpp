@@ -4,7 +4,7 @@
 
 #include "IrSensorController.h"
 
-IrSensorController::IrSensorController() = default{}
+IrSensorController::IrSensorController() = default;
 
 IrSensorController::~IrSensorController() {
 

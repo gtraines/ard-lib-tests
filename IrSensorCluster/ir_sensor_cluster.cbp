@@ -5,7 +5,7 @@
 		<Option title="ir_sensor_cluster"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\fakes\;CMake Files\tests\fakes\libraries\;CMake Files\tests\mocks_gen\;CMake Files\tests\mocks_man\;CMake Files\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\commando\;CMake Files\tests\;CMake Files\tests\fakes\;CMake Files\tests\fakes\libraries\;CMake Files\tests\mocks_gen\;CMake Files\tests\mocks_man\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster"/>
@@ -50,6 +50,7 @@
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_tests"/>
@@ -71,6 +72,7 @@
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_tests/fast"/>
@@ -240,6 +242,7 @@
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_impl"/>
@@ -261,12 +264,49 @@
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/libraries"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_gen"/>
 					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/Makefile&quot;  VERBOSE=1 ir_sensor_cluster_impl/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commando">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/libcommando.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/../../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 commando"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commando/fast">
+				<Option output="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/libcommando.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/../../tests/tools"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando"/>
+					<Add directory="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 commando/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -289,6 +329,24 @@
 			<Option target="ir_sensor_cluster_impl"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/IrSensorController.h">
+			<Option target="ir_sensor_cluster_impl"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/commando.cpp">
+			<Option target="commando"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/commando.h">
+			<Option target="commando"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/examples/commands/commands.ino">
+			<Option target="commando"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/keywords.txt">
+			<Option target="commando"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/library.properties">
+			<Option target="commando"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commomessaging.h">
 			<Option target="ir_sensor_cluster_impl"/>
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/fakes/Arduino.cpp">
@@ -367,6 +425,12 @@
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/commando/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\commando\"/>
+		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
@@ -381,9 +445,6 @@
 		</Unit>
 		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/tests/mocks_man/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\mocks_man\"/>
-		</Unit>
-		<Unit filename="/home/graham/Source/ard-lib-tests/IrSensorCluster/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

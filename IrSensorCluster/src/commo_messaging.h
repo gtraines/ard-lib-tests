@@ -4,6 +4,12 @@
 
 #include <Arduino.h>
 
+// message destinations
+#define QUERY_PROTO_IDX 0
+#define TRAVERSE_CMD_PROTO_IDX 1
+#define ELEVATION_CMD_PROTO_IDX 2
+#define CANNON_CMD_PROTO_IDX 3
+
 // message types
 #define ACK 1
 #define NACK 2

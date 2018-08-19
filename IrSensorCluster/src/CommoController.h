@@ -6,17 +6,15 @@
 #define IR_SENSOR_CLUSTER_COMMOCONTROLLER_H
 
 #include <Arduino.h>
+#include <commando.h>
 
 class CommoController {
 public:
-    explicit CommoController(uint8_t serialPinNumber) {
-        _serialPinNumber = serialPinNumber;
-
-    }
-    void registerMessageReceiver(int taskHandle, String routingSymbol);
-
+    explicit CommoController();
 private:
-    int _serialPinNumber;
+    static Commando* _commandoInstance;
+    void _registerProtocols();
+
 };
 
 
